@@ -116,8 +116,8 @@ form {
   color: #0C4B05;
   border-style: none;
   font-size: 1.3vw;
-  margin: 3% 90px 0% 10px;
-  width: 90%;
+  margin: 3% 10px 0% 0px;
+  width: 250px;
   height: 40px;
   border-radius: 12px;
   cursor: pointer;

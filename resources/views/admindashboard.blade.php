@@ -50,7 +50,7 @@
 </div>
 <div class="buttondashboardcontainer">
     <a href="adminregistration"><button type="button" class="dashboardbutton"> View Registrants</button></a>
-    <a href="admindormmain"><button type="button" class="dashboardbutton" style="margin-left:15%;"> View Dorm</button></a>
+    <a href="admindormmain"><button type="button" class="dashboardbutton"> View Dorm</button></a>
 </div>
     </body>
 </html>
