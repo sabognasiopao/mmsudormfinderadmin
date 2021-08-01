@@ -54,3 +54,7 @@ Route::get('/admindormmain', function () {
     return view('admindormmain');
 });
 
+Route::get('/contact', function () {
+    return view('contact');
+});
+

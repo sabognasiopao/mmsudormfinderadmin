@@ -16,33 +16,39 @@ body {
     background-color: #F3EEED;
     font-family: Regular;
     margin: 0;
+    overflow: hidden;
+}
+
+legend{
+  color:#FFB700;
+  font-size:20px;
+}
+h1{
+  color: #0C4B05;
+}
+
+h3{
+  color: #FFB700;
+}
+
+h4{
+  color: #FFB700;
+  margin-left: 10px;
+  margin-right: 100px;
+  font-family:Unna;
+}
+
+form {
+  margin-left: 400px;
+  margin-top: -150px;
+  border-style: none;
+  display: inline-block;
 }
 
 .titleheader{
     color: #FFB700;
     font-size: 30px;
     margin-top: 20px;
-}
-
-h1{
-    color: #0C4B05;
-}
-
-h3{
-    color: #FFB700;
-}
-
-h4{
-    color: #FFB700;
-    margin-left: 10px;
-    margin-right: 100px;
-    font-family:Unna;
-}
-
-.container {
-    display: flex;
-    margin-top: 100px;
-    padding-left: 500px;
 }
 
 .username{
@@ -69,22 +75,11 @@ h4{
     display: flex;
 }
 
-legend{
-    color:#FFB700;
-    font-size:20px;
-}
-
-.welcomecontainer {
-  display: flex;
-width: 200px;
-height: 200px;
-}
-
 .logincontainer {
   display: flex;
-  margin:100px 100px 0px 0px;
-  width: 400px;
-  height: 400px;  
+  margin: 8% 5% 5% 50%;
+  width: 25%;  
+  height: 350px;  
   background-color: #0C4B05;
   border-radius: 10px;
 }
@@ -92,13 +87,13 @@ height: 200px;
 .logincontainer form {
   border-radius: 10px;
   border-style: none;
-  margin:90px 100px 0px 80px;
-  width: 400px;
+  margin: 20% 2% 2% 20%;
+  width: 65%;
   height: 400px; 
 }
 
 .loginform {
-    width: 250px;
+    width: 45%;
     height: 40px;
     border-style: none;
     border-radius: 10px;
@@ -110,17 +105,29 @@ height: 200px;
     background-color:#FFB700;
     color: #0C4B05;
     border-style: none;
-    width: 255px;
+    width: 30%;
     height: 40px;
     border-radius: 12px;
     cursor: pointer;
+}
+
+.dashboardbutton {
+  background-color:#FFB700;
+  color: #0C4B05;
+  border-style: none;
+  font-size: 1.3vw;
+  margin: 3% 90px 0% 10px;
+  width: 90%;
+  height: 40px;
+  border-radius: 12px;
+  cursor: pointer;
 }
 
 .secondyellowbutton {
     background-color:#FFB700;
     color: #0C4B05;
     border-style: none;
-    width: 200px;
+    width: 15%;
     height: 40px;
     border-radius: 20px;
     margin-top:15px; 
@@ -134,7 +141,7 @@ height: 200px;
     color: #0C4B05;
     border-style:solid;
     border-color: #0C4B05;
-    width: 200px;
+    width: 15%;
     height: 40px;
     border-radius: 20px;
     margin-top:15px; 
@@ -147,13 +154,6 @@ height: 200px;
   display: block;
   padding-left: 350px;    
   padding-top: 60px;
-}
-
-form {
-    margin-left: 400px;
-    margin-top: -150px;
-    border-style: none;
-    display: inline-block;
 }
 
 .inputapp{
@@ -170,7 +170,7 @@ form {
     font-family: Regular;
     height: 30px;
     border-style: none;
-    font-size: 20px;
+    font-size: 1.3vw;
     background-color: #F3EEED;
 }
 
@@ -183,16 +183,15 @@ form {
 
 .dashboard_con {
   display: flex;
-  padding-top: 300px;
-  padding-left: 400px;    
+  padding-top: 5%;
+  padding-left: 25%;    
 }
 
 .buttondashboardcontainer{
-  display: flex;
+  display:flex;
+  width: 55%;
   position: absolute;
-  padding-top: 10px;
-  padding-left: 400px;    
-  cursor: pointer;
+  margin-left: 25%; 
 }
 
 .btnapply {
@@ -219,96 +218,6 @@ form {
     border: 2px solid #FFB700;
     cursor: pointer;
 }
-
-/* FOR SLIDESHOW IMAGE*/
-* {
-    box-sizing: border-box;
-  }
-  
-  img {
-    vertical-align: middle;
-  }
-  
-  /* Position the image container (needed to position the left and right arrows) */
-  .imgcontainer {
-    position: relative;
-    width: 600px;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
-    cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 40%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    margin-right:200px;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-    background-color:#0C4B05;
-    color: #FFB700;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
-    float: left;
-    width: 16.66%;
-  }
-  
-  /* Add a transparency effect for thumnbail images */
-  .demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
-
-  /* {END} FOR SLIDESHOW IMAGE*/
-
 
 /* FOR VERTICAL NAVIGATION BAR */
 .verticalnav {
@@ -359,7 +268,7 @@ form {
 }
 
 .onoffcampus_con {
-  width: 300px;
+  width: 28%;
   height: auto;
   margin-right: 150px;
 }
@@ -370,11 +279,11 @@ form {
 }
 
 .btndownload {
-    width: 150px;
+    width: 15%;
     height: 50px;
     border-radius: 35px;
-    margin-left: 500px;
-    font-size: 15px;
+    margin-left: 60%;
+    font-size: 1.1vw;
     font-weight: bold;
     margin-bottom: 20px;
     color: #0C4B05;
@@ -384,11 +293,11 @@ form {
 }
 
 .btndelete {
-    width: 150px;
+    width: 15%;
     height: 50px;
     border-radius: 35px;
     margin-bottom: 20px;
-    font-size: 15px;
+    font-size: 1.1vw;
     font-weight: bold;
     color: #1D6115;
     border: 2px solid #FFB700;
@@ -396,10 +305,10 @@ form {
 }
 
 .btnviewocc {
-    width: 180px;
+    width: 20%;
     height: 50px;
     border-radius: 35px;
-    font-size: 15px;
+    font-size: 1.1vw;
     font-weight: bold;
     color: #1D6115;
     border: 2px solid #FFB700;
@@ -407,9 +316,14 @@ form {
 }
 
 .dorm_details_con {
-    margin: auto;
     display: flex;
-    padding-top: 200px;
+    height: 500px;
+    padding-top: 15%;
+    overflow-y: scroll;
+}
+
+.dorm_details_con form {
+  width: 60%;
 }
 
 .dorm_details_con label{
@@ -429,7 +343,7 @@ form {
  .tableFixHead {
     overflow-y: auto;
     height: 400px;
-    width: 1100px;
+    width: 95%;
   }
   .tableFixHead thead th {
     position: sticky;
@@ -439,16 +353,15 @@ form {
   .tableFixHeadtitle {
     position: sticky;
     padding-left: 10px;
-    width: 1100px;
+    margin-top: -3%;
+    width: 95%;
     color: #FFB700;
     background-color: #0C4B05;
-    font-size: 30px;
+    font-size: 2vw;
   }
 
   .check{
-    margin-left: -100px;
-    width: 15px;
-    height: 15px;
+    margin-left: -100%;
   }
   table {
     border-collapse:collapse;
@@ -458,6 +371,7 @@ form {
   th,
   td {
     padding: 8px 16px;
+    font-size: 1.2vw;
   }
   th {
     background: #eee;
@@ -479,9 +393,9 @@ form {
     color: #000;
   }
 
-  /*SCROLLABLE LIST END*/
+/*SCROLLABLE LIST END*/
 
-  /*CUSTOM SCROLL*/
+/*CUSTOM SCROLL*/
   ::-webkit-scrollbar {
     width: 10px;
   }
@@ -500,25 +414,22 @@ form {
   ::-webkit-scrollbar-thumb:hover {
     background: #FFB700; 
   }
+/* END CUSTOM SCROLL*/
 
-  /*FOR IMAGE OVERLAY DASHBOARD*/
-
-  
+/*FOR IMAGE OVERLAY DASHBOARD*/  
 .leftcontainer {
   position: relative;
-  margin-top: -200px;
   margin-right: 10px;
 }
 
 .rightcontainer{
   position: relative;
-  margin-top: -200px;
   margin-right: 10px;
 }
 
 .image {
   display: block;
-  width: 250px;
+  width: 100%;
   height:250px;
 }
 
@@ -547,12 +458,12 @@ form {
 }
 
 .leftcontainer:hover .overlay {
-  width: 250px;
+  width: 100%;
   height:250px;
 }
 
 .rightcontainer:hover .rightoverlay {
-  width: 250px;
+  width: 100%;
   height:250px;
   left: 0;
 }
@@ -568,19 +479,26 @@ form {
   transform: translate(-50%, -50%);
   white-space: nowrap;
 }
+/* END IMAGE OVERLAY */
 
+/* HEADER STYLE */
+.titleheader{
+  color: #FFB700;
+  font-size: 2vw;
+  margin-top: 20px;
+}
 
 .header{
   background-color: #FFCD00;
-  padding-left: 350px;    
   color: #0C4B05;
+  padding-left: 23%;
   display: flex;
+  width: auto;
 }
 
 .header input[type=text] {
 padding: 6px;
-margin:0px 0px 0px -300px;
-font-size: 17px;
+font-size: 1vw;
 border: none;
 }
 
@@ -589,18 +507,60 @@ background: #1D6115;
 }
 
 .header select{
-    margin:30px 0px 0px -80px;
+  margin-top:2%;
+  margin-left: 1%;
+  font-size: 1vw;
+  width: auto;
 }
 
 .header label{
-  margin:35px 0px 0px 200px;
+  margin-top:2%;
+  margin-left: 10%;
 }
 
 .header button{
-  background-color:transparent;
+  background-color:#eee;
   color: #FFCD00;
   height: 30px;
-  width: 30;
+  width: 10%;
   border-style: none;
   cursor: pointer;
 }
+/* END OF HEADER */
+
+/* CONTACT PAGE CONTAINER */
+
+.contactcontainer{
+  display:flexbox;
+  margin-top: 2%;
+  padding-left: 25%;    
+  height: 550px;
+  overflow: auto;
+}
+
+.contactcontainer img{
+  width: 5%; height: 5%;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
+
+.contactcontainer ul{
+  list-style-type: none;
+}
+
+.contactcontainer ol{
+  font-size: 1.4vw;
+}
+
+.contactcontainer li{
+  margin-top: 2%;
+}
+
+.boxcontact{
+ border-style: solid; border-color: #FFCD00;
+ width: 80%;
+ padding-left: 5%;
+ margin-top: 5%;
+}
+/* END CONTACT PAGE CONTAINER */
