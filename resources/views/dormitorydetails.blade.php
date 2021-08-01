@@ -52,7 +52,7 @@
             <option value="chs">CHS</option>
         </select>
     <label for="fname" style="margin-left:15px;">Room Fee</label>
-        <input type="text" id="fname" name="fname" style="width: 20%; margin-left:-10%;" class="readapp" value="1200" readonly="readonly"><br><br><br>
+        <input type="text" id="fname" name="fname" style="width: 20%; margin-left:-7%;" class="readapp" value="1200" readonly="readonly"><br><br><br>
    
     <label for="quantity">Available space</label>
         <input type="number" id="quantity" name="quantity" class="readapp" min="0" value="10" readonly="readonly"><br><br>    
