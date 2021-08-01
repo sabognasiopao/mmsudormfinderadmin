@@ -579,8 +579,10 @@ background: #1D6115;
   margin: 12px auto;
   text-align: center;
   border: solid 2px #FFCD00;
-  border-radius: 50%;
+  border-radius: 30%;
   cursor: pointer;
+  padding-top: 10px;
+  color: #FFCD00;
   font-size:1vw;
 }
 .nav-item:hover {
@@ -622,6 +624,7 @@ input[type='radio'] {
 }
 input[type='radio']#section1:checked ~ nav label[for='section1'] {
   background-color:#FFCD00;
+  color: #0C4B05;
 }
 input[type='radio']#section1:checked ~ section:nth-of-type(1) {
   z-index: 1;
@@ -634,6 +637,7 @@ input[type='radio']#section1:checked ~ .cover {
 }
 input[type='radio']#section2:checked ~ nav label[for='section2'] {
   background-color: #FFCD00;
+  color: #0C4B05;
 }
 input[type='radio']#section2:checked ~ section:nth-of-type(2) {
   z-index: 1;
