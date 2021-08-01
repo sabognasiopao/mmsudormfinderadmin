@@ -66,8 +66,6 @@
         <label style="margin-left:30px;" for="room">Room Type</label>
             <input type="text" id="room" value="Single Space" style="width: 25%;" class="inputapp"><br><br><br><br>
         
-       
-
         <button type="button" onclick="download()" class="btndownload">DOWNLOAD</button>
         <button type="button" onclick="remove()" style="margin-left:1%;"class="btndelete">DELETE</button>
     </form>
