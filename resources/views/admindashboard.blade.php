@@ -34,23 +34,29 @@
     </div>
 
 <div class="dashboard_con">
-    <div class="rightcontainer">
-        <img src="/images/registrant.png" alt="Avatar" class="image">
-        <div class="rightoverlay">
-            <div class="text">Registrants</div>
-        </div>
-    </div>
-  
-    <div class="leftcontainer">
-        <img src="/images/occupant.png" alt="Avatar" class="image">
-        <div class="overlay">
-            <div class="text">Dormitories</div>
-        </div>
-    </div>
-</div>
-<div class="buttondashboardcontainer">
-    <a href="adminregistration"><button type="button" class="dashboardbutton"> View Registrants</button></a>
-    <a href="admindormmain"><button type="button" class="dashboardbutton"> View Dorm</button></a>
+<input type="radio" name="item" checked="checked" id="section1" />
+    <input type="radio" name="item" id="section2" />
+
+    <nav class="nav">
+      <label class="nav-item" for="section1">R</label>
+      <label class="nav-item" for="section2">D</label>
+
+    </nav>
+
+    
+    <section>
+        <h2 class="h2nav"><p class="text--sub">admin management</p>Registrants <p class="text--normal">Pikachu is an Electric-type Pokémon introduced in Generation I. Pikachu are small, chubby, and incredibly 
+          cute mouse-like Pokémon. They are almost completely covered by yellow fur.</p><p class="text--sub">CLICK BUTTONS ON THE <br>RIGHT SIDE TO CHOOSE</p><p class="text__background">ADMIN</p>
+          <a href="oncampus"><button type="button" class="dorm">V I E W</button></a>
+        </h2>
+    </section>
+   
+    <section>
+        <h2 class="h2nav"><p class="text--sub">admin management</p>Dormitory<p class="text--normal">Pikachu is an Electric-type Pokémon introduced in Generation I. Pikachu are small, chubby, and incredibly 
+          cute mouse-like Pokémon. They are almost completely covered by yellow fur.</p><p class="text--sub">CLICK BUTTONS ON THE <br>RIGHT SIDE TO CHOOSE</p><p class="text__background">ADMIN</p>
+          <a href="oncampus"><button type="button" class="dorm">V I E W</button></a>
+        </h2>
+        </section>
 </div>
     </body>
 </html>
