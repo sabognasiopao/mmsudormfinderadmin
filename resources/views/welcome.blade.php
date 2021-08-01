@@ -30,7 +30,7 @@
                 <input type="text" id="name" placeholder="Staff ID" class="loginform" style="margin-top:30px;width:100%;"> <br>
                 <input type="password" id="password" placeholder="Password" class="loginform" style="margin-top:10px;width:100%;"> <br>
 
-                <a href="admindashboard"><button type="button" class="yellowbutton" style="margin-top:15px; margin-bottom:50px;">Log In</button></a> 
+                <a href="admindashboard"><button type="button" class="yellowbutton" style="width:101%;margin-top:15px; margin-bottom:50px;">Log In</button></a> 
         </form>
     </div>
             
