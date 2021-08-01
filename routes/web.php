@@ -50,6 +50,10 @@ Route::get('/adminregistration', function () {
     return view('adminregistration');
 });
 
+Route::get('/adminregistrantdetails', function () {
+    return view('adminregistrantdetails');
+});
+
 Route::get('/admindormmain', function () {
     return view('admindormmain');
 });

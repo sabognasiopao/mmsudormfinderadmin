@@ -359,9 +359,6 @@ display: flex;
     font-size: 2vw;
   }
 
-  .check{
-    margin-left: -100%;
-  }
   table {
     border-collapse:collapse;
     width: 100%;

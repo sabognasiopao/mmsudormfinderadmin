@@ -14,12 +14,11 @@
     
     <body class="antialiased">
         
-     
     <div class="uppernav"><h3 style="color:#0C4B05;margin-left:20px;">MMSU </h3><h3> - Admin Dorm Management</h3></div>
     <div class="topnav" id="myTopnav">
         <img style="float:left;margin-left:20px;margin-top:12px;" src="/images/mmsu logo.png"  height="3%" width="3%">
         <h4>MARIANO MARCOS <br> STATE UNIVERSITY</h4>
-        <div class="titleheader">REGISTRANTS</div>
+        <div class="titleheader">REGISTRANT - Registrant Name</div>
     </div>
           
     <div class="verticalnav">
@@ -33,28 +32,24 @@
         </ul>    
     </div>
 
-    <div class="listappcontainer">
-    <div class="tableFixHeadtitle">LIST OF REGISTRANTS</div>  
-    <div class="tableFixHead">
-      <table>
-        <thead>
-          <tr>
-            <th>NAME</th>
-            <th>DORM NAME</th>
-            <th>CONTACT NUMBER</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><a href="adminregistrantdetails">Paola Francisco</a></td>
-            <td>Sample Dorm Name</td>
-            <td>09355350600</td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="dorm_details_con">
+    
+    <form>
+        <label for="fname">Manager</label>
+            <input type="text" id="fname" name="fname" style="width: 65%;" class="readapp" value="Sample Name" readonly="readonly"><br><br>
+        <label for="fname">Dorm Name</label>
+            <input type="text" id="fname" name="fname" style="width: 65%;" class="readapp" value="Sample Location" readonly="readonly"><br><br>
+        <label for="fname">Email</label>
+            <input type="text" id="fname" name="fname" style="width: 65%;" class="readapp" value="Sample Contact" readonly="readonly"><br><br>
+        <label for="fname">Contact Number</label>
+            <input type="text" id="fname" name="fname" style="width: 65%;" class="readapp" value="Sample Amenities" readonly="readonly"><br><br><br>
+    </form>    
+    
     </div>
-</div>
+        <div class="btndorm_container">
+        <button type="button" onclick="##" class="btndownload">ACCEPT</button>
+        <a href="occupantslist"><button type="button" class="btnviewocc">DENY</button></a>
+        </div>
 
 </body>
 </html>
