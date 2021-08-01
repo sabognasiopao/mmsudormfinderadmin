@@ -318,6 +318,7 @@ display: flex;
 
 .dorm_details_con {
     display: flex;
+    width: 100%;
     padding-top: 15%;
     overflow-y: scroll;
 }
