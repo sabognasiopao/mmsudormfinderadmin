@@ -26,6 +26,7 @@
         <li class="username">Admin Name</li>
             <li><a href="admindashboard"> <img src="https://img.icons8.com/fluent-systems-regular/96/000000/home.png"/> Home</a></li>
             <li><a href="adminregistration"> <img src="https://img.icons8.com/fluent-systems-regular/50/000000/parse-resume.png"/> Registrants</a></li>
+            <li><a href="occupantslist"><img src="https://img.icons8.com/fluent-systems-regular/96/000000/user-rights.png"/> Occupants</a></li>
             <li><a class="active" href="admindormmain"><img src="https://img.icons8.com/fluent-systems-regular/96/000000/department.png"/> Dorm</a></li>
             <li><a href="contact"><img src="https://img.icons8.com/fluent-systems-regular/96/000000/info-squared.png"/> Contact</a></li><br><br>
             <li><a href="welcome" style="color:red;"><img src="https://img.icons8.com/ios-filled/50/000000/exit.png"/>Log Out</a></li>
@@ -63,7 +64,7 @@
 
     <div class="btndorm_container">
     <button type="button" onclick="download()" class="btndownload">DOWNLOAD</button>
-    <a href="occupantslist"><button type="button" class="btnviewocc">VIEW OCCUPANTS</button></a>
+    <a href="dormoccupantslist"><button type="button" class="btnviewocc">VIEW OCCUPANTS</button></a>
     </div>
 
         </body>

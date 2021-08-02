@@ -34,6 +34,10 @@ Route::get('/occupantslist', function () {
     return view('occupantslist');
 });
 
+Route::get('/dormoccupantslist', function () {
+    return view('dormoccupantslist');
+});
+
 Route::get('/occupantsdetails', function () {
     return view('occupantsdetails');
 });
