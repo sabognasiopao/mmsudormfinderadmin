@@ -60,7 +60,6 @@
             <li><img src="https://img.icons8.com/pastel-glyph/64/000000/phone-message--v1.png"/>09355350600</li>
         </ul>
     </div>
-    <img style="right:0%;width:15%;height:100%;bottom:0;" class="__img" src="images/banner.png" />
 
 </div>
 

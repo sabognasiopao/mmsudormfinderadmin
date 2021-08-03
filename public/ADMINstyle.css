@@ -94,7 +94,6 @@ form {
     width: 45%;
     height: 40px;
     border-style: none;
-    border-radius: 10px;
     text-indent: 10px;
     margin-top: 70px;
 }
@@ -216,6 +215,20 @@ form {
     border: 2px solid #FFB700;
     cursor: pointer;
 }
+
+/* TABLE FOR VIEW DORM */
+.viewdormtable{
+  width:30%;
+  font-size: 2vw;
+}
+.viewdormtable th{
+font-family: ABold;
+color: #0C4B05;
+font-size: 1.3vw;
+text-align: left;
+}
+
+/* TABLE FOR VIEW DORM */
 
 /* FOR VERTICAL NAVIGATION BAR */
   

@@ -36,27 +36,29 @@
 <div class="dorm_details_con">
     
 <form>
-    <label for="fname">Manager</label>
+    <label style="margin-left:1.5%;" for="fname">Manager</label>
         <input type="text" id="fname" name="fname" style="width: 65%;" class="readapp" value="Sample Name" readonly="readonly"><br><br>
-    <label for="fname">Address</label>
+    <label style="margin-left:1.5%;" for="fname">Address</label>
         <input type="text" id="fname" name="fname" style="width: 65%;" class="readapp" value="Sample Location" readonly="readonly"><br><br>
-    <label for="fname">Contact</label>
+    <label style="margin-left:1.5%;" for="fname">Contact</label>
         <input type="text" id="fname" name="fname" style="width: 65%;" class="readapp" value="Sample Contact" readonly="readonly"><br><br>
-    <label for="fname">Amenities</label>
+    <label style="margin-left:1.5%;" for="fname">Amenities</label>
         <input type="text" id="fname" name="fname" style="width: 65%;" class="readapp" value="Sample Amenities" readonly="readonly"><br><br><br>
-    
-    <label for="room">Type of Room</label>
-        <select name="room" id="room" style="width: 200px;"class="readapp" readonly="readonly">
-            <option value="cas">CAS</option>
-            <option value="coe">COE</option>
-            <option value="cbea">CBEA</option>
-            <option value="chs">CHS</option>
-        </select>
-    <label for="fname" style="margin-left:15px;">Room Fee</label>
-        <input type="text" id="fname" name="fname" style="width: 20%; margin-left:-7%;" class="readapp" value="1200" readonly="readonly"><br><br><br>
    
-    <label for="quantity">Available space</label>
-        <input type="number" id="quantity" name="quantity" class="readapp" min="0" value="10" readonly="readonly"><br><br>    
+    <label style="margin-left:1.5%;" for="quantity">Available space</label>
+        <input type="number" id="quantity" name="quantity" class="readapp" min="0" value="10" readonly="readonly"><br><br> 
+        
+    <table class="viewdormtable" id="room">
+                <tr>
+                    <th>Room Type</th>
+                    <th>Price</th>
+                </tr> 
+               <tr>
+                    <td class="readapp">Single</td>
+                    <td class="readapp">1500</td>
+                </tr>
+    </table> 
+    
 </form>    
 
 
