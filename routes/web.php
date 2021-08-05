@@ -66,3 +66,6 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/occupantslist', function () {
+    return view('occupantslist');
+});
