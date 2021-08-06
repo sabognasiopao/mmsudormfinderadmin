@@ -35,31 +35,38 @@
     </div>
 
 <div class="dashboard_con">
-    <input type="radio" name="item" checked="checked" id="section1" />
+<input type="radio" name="item" checked="checked" id="section1" />
     <input type="radio" name="item" id="section2" />
+    <input type="radio" name="item" id="section3" />
+
 
     <nav class="nav">
       <label class="nav-item" for="section1">R</label>
-      <label class="nav-item" for="section2">D</label>
+      <label class="nav-item" for="section2">O</label>
+      <label class="nav-item" for="section3">D</label>
     </nav>
 
+    
     <section>
-        <h2 class="h2nav"><p class="text--sub">admin management</p>Registrants <p class="text--normal">Pikachu is an Electric-type Pokémon introduced in Generation I. Pikachu are small, chubby, and incredibly 
-          cute mouse-like Pokémon. They are almost completely covered by yellow fur.</p><p class="text--sub">CLICK BUTTONS ON THE <br>RIGHT SIDE TO CHOOSE</p><p class="text__background">ADMIN</p>
-          <a href="adminregistration"><button type="button" class="dorm">V I E W</button></a>
+        <h2 class="h2nav"><p class="text--sub">admin management</p>Registrants <p class="text--normal">To be able to view and accept/deny the registrants, click view!</p><p class="text--sub" style="margin-bottom:0%;">CLICK BUTTONS ON THE <br>RIGHT SIDE TO CHOOSE</p>
+          <a href="listapplication"><button type="button" class="dorm">V I E W</button></a>
         </h2>
-        <img style="right:0%;width:35%;height:100%;" class="__img" src="images/banner.png" />
-
+    </section>
+   
+    <section>
+        <h2 class="h2nav"><p class="text--sub">admin management</p>Occupants<p class="text--normal">To be able to view all of the occupants, click view!</p><p class="text--sub" style="margin-bottom:0%;">CLICK BUTTONS ON THE <br>RIGHT SIDE TO CHOOSE</p>
+          <a href="listoccupants"><button type="button" class="dorm">V I E W</button></a>
+        </h2>
     </section>
 
     <section>
-        <h2 class="h2nav"><p class="text--sub">admin management</p>Dormitory<p class="text--normal">Pikachu is an Electric-type Pokémon introduced in Generation I. Pikachu are small, chubby, and incredibly 
-          cute mouse-like Pokémon. They are almost completely covered by yellow fur.</p><p class="text--sub">CLICK BUTTONS ON THE <br>RIGHT SIDE TO CHOOSE</p><p class="text__background">ADMIN</p>
-          <a href="admindormmain"><button type="button" class="dorm">V I E W</button></a>
+        <h2 class="h2nav"><p class="text--sub">admin management</p>Dormitory<p class="text--normal">To be able to view and update dormitories, click view!</p><p class="text--sub" style="margin-bottom:0%;">CLICK BUTTONS ON THE <br>RIGHT SIDE TO CHOOSE</p>
+          <a href="viewdorm"><button type="button" class="dorm">V I E W</button></a>
         </h2>
-        <img style="right:0%;width:35%;height:100%;" class="__img" src="images/banner.png" />
     </section>
     <div class="cover"></div>
+
 </div>
+
     </body>
 </html>

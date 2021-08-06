@@ -31,8 +31,8 @@
         <li class="username">Admin Name</li>
             <li><a href="admindashboard"> <img src="https://img.icons8.com/fluent-systems-regular/96/000000/home.png"/> Home</a></li>
             <li><a href="adminregistration"> <img src="https://img.icons8.com/fluent-systems-regular/50/000000/parse-resume.png"/> Registrants</a></li>
-            <li><a href="occupantslist"><img src="https://img.icons8.com/fluent-systems-regular/96/000000/user-rights.png"/> Occupants</a></li>
-            <li><a class="active" href="admindormmain"><img src="https://img.icons8.com/fluent-systems-regular/96/000000/department.png"/> Dorm</a></li>
+            <li><a class="active" href="occupantslist"><img src="https://img.icons8.com/fluent-systems-regular/96/000000/user-rights.png"/> Occupants</a></li>
+            <li><a href="admindormmain"><img src="https://img.icons8.com/fluent-systems-regular/96/000000/department.png"/> Dorm</a></li>
             <li><a href="contact"><img src="https://img.icons8.com/fluent-systems-regular/96/000000/info-squared.png"/> Contact</a></li><br><br>
             <li><a href="welcome" style="color:red;"><img src="https://img.icons8.com/ios-filled/50/000000/exit.png"/>Log Out</a></li>
         </ul>    
@@ -71,19 +71,18 @@
         <input type="text" style="width:20%;margin-left:0%;"id="birthday" value="Ilocos Norte" class="inputapp" readonly><br><br>
 
 
-        <label class="detailslabel" for="nameg">Name of Guardian</label>
-        <label class="detailslabel" for="number">Contact of Guardian</label>
-        <label class="detailslabel" for="college">College:</label>
-        <label class="detailslabel" for="course">Course:</label><br>
+        <label style="width:20%;" for="nameg">Name of Guardian</label>
+        <label style="width:20%;" for="number">Contact of Guardian</label>
+        <label style="width:20%;" for="college">College:</label>
+        <label style="width:20%;" for="course">Course:</label><br>
 
         <input type="text" style="width:20%;margin-right:2%;margin-left:0%;"id="nameg" value="Philbert Francisco"  class="inputapp" readonly>
         <input type="tel" style="width:20%;margin-right:2%;margin-left:0%;"id="number" value="09355350600"  class="inputapp" readonly>
         <input type="text" style="width:20%;margin-right:2%;margin-left:0%;"id="college" value="CAS"  class="inputapp" readonly>
         <input type="text" style="width:20%;margin-right:2%;margin-left:0%;"id="course" value="BSCS"  class="inputapp" readonly><br><br>
 
-        
-        <button type="button" onclick="download()" class="btndownload">DOWNLOAD</button>
-        <button type="button" onclick="remove()" style="margin-left:1%;"class="btndelete">DELETE</button>
+        <button type="button" onclick="remove()" style="margin: 5% 7% 0% 1%;float:right;"class="btndelete">DELETE</button>
+        <button type="button" onclick="download()"  style="margin-left:0%;margin-top:5%;float:right;"class="btndownload">DOWNLOAD</button>
     </form>
     </div>
 

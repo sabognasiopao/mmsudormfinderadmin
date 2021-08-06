@@ -36,21 +36,25 @@
     <div class="dorm_details_con">
     
     <form>
-        <label for="fname">Manager</label>
-            <input type="text" id="fname" name="fname" style="width: 65%;" class="readapp" value="Sample Name" readonly="readonly"><br><br>
-        <label for="fname">Dorm Name</label>
-            <input type="text" id="fname" name="fname" style="width: 65%;" class="readapp" value="Sample Location" readonly="readonly"><br><br>
-        <label for="fname">Email</label>
-            <input type="text" id="fname" name="fname" style="width: 65%;" class="readapp" value="Sample Contact" readonly="readonly"><br><br>
-        <label for="fname">Contact Number</label>
-            <input type="text" id="fname" name="fname" style="width: 65%;" class="readapp" value="Sample Amenities" readonly="readonly"><br><br><br>
+    <label for="fname">First Name</label>
+    <label for="fname">Middle Name</label>
+    <label for="fname">Last Name</label><br>
+    <input type="text" id="fname" name="fname" style="width: 25%;" class="inputapp" value="Sample Name">
+    <input type="text" id="fname" name="fname" style="width: 25%;" class="inputapp" value="Sample Name">
+    <input type="text" id="fname" name="fname" style="width: 25%;" class="inputapp" value="Sample Name"><br><br>
+
+    <label for="dname">Dorm Name</label>
+    <label for="contact">Contact</label><br>
+   
+    <input type="tel" id="fname" name="dname" style="width: 25%;" class="inputapp" value="Sample Dorm Name">
+    <input type="text" id="fname" name="contact" style="width: 25%;" class="inputapp" value="Sample Contact"><br>
+   
+    <button type="button" onclick="remove()" style="margin: 5% 7% 0% 1%;float:right;"class="btndelete">DENY</button>
+    <button type="button" onclick="download()"  style="margin-left:0%;margin-top:5%;float:right;"class="btndownload">ACCEPT</button>
+    </div>
+
     </form>    
     
-    </div>
-        <div class="btndorm_container">
-        <button type="button" onclick="##" class="btndownload">ACCEPT</button>
-        <a href="occupantslist"><button type="button" class="btnviewocc">DENY</button></a>
-        </div>
-
+   
 </body>
 </html>
