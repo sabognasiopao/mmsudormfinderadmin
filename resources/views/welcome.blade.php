@@ -14,7 +14,7 @@
         <script type="text/javascript" src="dormfindercoed.js"></script>    
     </head>
     
-    <body   style="background-image: url('/images/bg.jpg');  background-repeat: no-repeat;background-size:100% 100%;" class="antialiased">
+    <body   style="background-image: url('/images/bg.png');  background-repeat: no-repeat;background-size:100% 100%;" class="antialiased">
         
     <div class="uppernav"><h3 style="color:#0C4B05;margin-left:20px;">MMSU </h3><h3> - Admin Dorm Management</h3></div>
     <div class="topnav" id="myTopnav">

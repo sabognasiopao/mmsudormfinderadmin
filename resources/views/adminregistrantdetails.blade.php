@@ -33,21 +33,24 @@
         </ul>    
     </div>
 
-    <div class="dorm_details_con">
+    <div class="dormdeets">
     
-    <form>
+    <form style="width:70%;">
+
+    <div class="smallheader">FULL NAME</div>
     <label for="fname">First Name</label>
     <label for="fname">Middle Name</label>
     <label for="fname">Last Name</label><br>
-    <input type="text" id="fname" name="fname" style="width: 25%;" class="inputapp" value="Sample Name">
-    <input type="text" id="fname" name="fname" style="width: 25%;" class="inputapp" value="Sample Name">
-    <input type="text" id="fname" name="fname" style="width: 25%;" class="inputapp" value="Sample Name"><br><br>
+    <input type="text" id="fname" name="fname" style="width: 20%;" class="inputapp" value="Sample Name">
+    <input type="text" id="fname" name="fname" style="width: 20%;" class="inputapp" value="Sample Name">
+    <input type="text" id="fname" name="fname" style="width: 20%;" class="inputapp" value="Sample Name"><br><br>
 
+    <div class="smallheader">OTHER INFORMATION</div>
     <label for="dname">Dorm Name</label>
     <label for="contact">Contact</label><br>
    
-    <input type="tel" id="fname" name="dname" style="width: 25%;" class="inputapp" value="Sample Dorm Name">
-    <input type="text" id="fname" name="contact" style="width: 25%;" class="inputapp" value="Sample Contact"><br>
+    <input type="tel" id="fname" name="dname" style="width: 20%;" class="inputapp" value="Sample Dorm Name">
+    <input type="text" id="fname" name="contact" style="width: 20%;" class="inputapp" value="Sample Contact"><br>
    
     <button type="button" onclick="remove()" style="margin: 5% 7% 0% 1%;float:right;"class="btndelete">DENY</button>
     <button type="button" onclick="download()"  style="margin-left:0%;margin-top:5%;float:right;"class="btndownload">ACCEPT</button>

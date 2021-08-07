@@ -48,9 +48,10 @@
         </thead>
         <tbody>
           <tr>
-            <td><a href="adminregistrantdetails">Paola Francisco</a></td>
+            <td>Paola Francisco</td>
             <td>Sample Dorm Name</td>
             <td>09355350600</td>
+            <td><a href="adminregistrantdetails"><button type="button">VIEW</button></a></td>
           </tr>
         </tbody>
       </table>

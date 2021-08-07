@@ -34,7 +34,7 @@
         </ul>    
     </div>
 
-    <div class="header"> <h1>DORMITORY</h1>
+    <div class="header"> <h1 style="color:white;">DORMITORY</h1>
       <form style="margin-top:2%;margin-left:40%;" action="###">
         <input type="text" id="search" onkeyup="searchFunction()" placeholder="Search.." name="search">
         <button type="submit"><img src="https://img.icons8.com/pastel-glyph/50/000000/search--v2.png" width="100%"></button>
@@ -50,13 +50,15 @@
             <th>DORMITORY NAME</th>
             <th>DORM MANAGER</th>
             <th>CONTACT NUMBER</th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><a href="dormitorydetails">Ladies Dormitory</a></td>
+            <td>Ladies Dormitory</td>
             <td>Marilyn Rojo</td>
             <td>09355350600</td>
+            <td><a href="dormitorydetails"><button type="button">VIEW</button></a></td>
           </tr>
         </tbody>
       </table>
